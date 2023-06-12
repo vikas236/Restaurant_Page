@@ -5,10 +5,11 @@ import { createMenu } from './menu';
 import { createContact } from './contact';
 
 
-createNav();
-const heading = document.querySelectorAll("li");
-const section = document.querySelector(".section");
-createHome(section);
+
+createNav(); // Load navbar
+const heading = document.querySelectorAll("li"); // topics to click and load (home, menu, contact)
+const section = document.querySelector(".section"); // content to display (home, menu, contact)
+createHome(section); // Load Home as default tab
 
 
 // Highlight heading
@@ -18,6 +19,8 @@ const underHeading = (n) => {
     }
     heading[n].classList.add("active");
 };
+
+// Tab change on click
 
 heading[0].addEventListener("click", function() {
     createHome(section);

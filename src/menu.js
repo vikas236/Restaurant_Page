@@ -7,7 +7,7 @@ const samosas = ["https://www.crazymasalafood.com/wp-content/images/20-different
 const types = ["Chole Samosa", "Keema Samosa", "Chocolate Samosa", "Pasta Samosa"];
 
 
-// Create menu section
+// Load menu section
 const createMenu = (section) => {
     section.innerHTML = ""
     section.className = "menu section";

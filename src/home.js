@@ -1,7 +1,7 @@
 // chef image
 import chef_image from './images/chef.jpg'
 
-// Create home section
+// Load home section
 const createHome = (section) => {
     section.innerHTML = ""
     section.className = "home section";

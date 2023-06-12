@@ -14,11 +14,14 @@ body {
     background-size: cover;
 }
 
+/* Adding flex display to several elements */
 .content, nav, .home, .sections, .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* Main content */
 
 .content {
     width: 100vw;
@@ -27,6 +30,8 @@ body {
     font-family: sans-serif;
 }
 
+/* Navbar */
+
 nav {
     width: 100vw;
     height: 20vh;
@@ -34,6 +39,7 @@ nav {
     justify-content: space-around;
 }
 
+/* Navbar title */
 .title {
     font-family: 'Caveat Brush', cursive;
     font-size: 72px;
@@ -44,11 +50,13 @@ nav {
     text-align: center;
 }
 
+/* Navbar headings topics*/
 h1 {
     font-size: 24px;
     font-weight: 400;
 }
 
+/* Navbar headings topics */
 .sections {
     flex-direction: row;
     width: 400px;
@@ -79,6 +87,8 @@ h1 {
     padding-bottom: 10px;
 }
 
+/* Content displaying home, menu, contact */
+
 .section {
     width: 750px;
     height: 650px;
@@ -103,6 +113,8 @@ h3:nth-of-type(2) {
     margin: 25px 175px;
 }
 
+/* Menu items */
+
 .menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -110,6 +122,7 @@ h3:nth-of-type(2) {
     padding-left: 75px;
 }
 
+/* Dishes inside menu */
 .menu .box {
     width: 250px;
     height: 250px;
@@ -138,6 +151,9 @@ h3:nth-of-type(2) {
     font-size: 21px;
 }
 
+
+/* Contact information */
+
 .contact .phone, .contact .address {
     display: flex;
     width: 550px;
@@ -163,6 +179,7 @@ h3:nth-of-type(2) {
     fill: white;
 }
 
+/* Map image */
 .contact .map {
     width: 650px;
     height: 450px;

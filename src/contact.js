@@ -1,5 +1,4 @@
-import phone_image from './images/icons/phone.svg'
-
+// Load Contact section
 const createContact = (section) => {
     section.innerHTML = ""
     section.className = "contact section";
